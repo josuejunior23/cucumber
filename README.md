@@ -1,8 +1,5 @@
-Avaliação
-de
-Testes automatizados
-para
-APIs
+#Avaliação de Testes automatizados para APIs
+
 Seja muito bem vindo ao processo de avaliação da RD.
 Estamos felizes por ter você em nosso processo.
 Bom, vamos a algumas explicações:
@@ -18,10 +15,12 @@ Qual API vai utilizar e qual o cenário de teste?
 https://viacep.com.br/ws/#{CEP}/json/
 Esse é o cenário que não precisa seguir exatamente como está
 aqui, é só como exemplo:
+
 Dado que eu possua o cep 05339-000
 Quando pesquiso na API dos correios
 Então eu recebo o endereço ‘Avenida Corifeu de
 Azevedo Marques’
+
 Qual será a forma de entrega?
 - Pode ser enviado para esse mesmo e-mail um arquivo zipado
 - Se subir em seu github pessoal só responder o e-mail também
