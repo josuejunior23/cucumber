@@ -1,6 +1,6 @@
 require "active_support/all"
-s_cep = "vazio"
-s_API = "vazio"
+s_cep = ""
+s_API = ""
 
 Dado("que eu possua o cep {string}") do |cep| 
 s_cep = cep
@@ -16,7 +16,7 @@ Então ("eu recebo o endereço {string}") do |endereco|
      if (JSON.parse(response.body)["logradouro"] == endereco)
           p "Endereço retornado confere com o apontado no teste"
      else
-          p "Endereço retornado diferente do apontado no teste"
+          p "Retorno diferente de: " + endereco
      end
      
 end
